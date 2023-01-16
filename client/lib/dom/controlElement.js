@@ -29,6 +29,7 @@ export function enableElement(node){
 }
 
 export function visibleElement(node){ //보여야함
+
   if (!isElement(node)) {
     typeError('visibleElment 함수의 인자는 DOM 요소 노드이어야 합니다');
   }

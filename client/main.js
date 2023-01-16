@@ -98,7 +98,6 @@ const handleRollingDice = (() => {
     if(!isRolling){
       // console.log('첫번째 클릭');
       stopAnimation = setInterval(diceAnimation,100)
-      
       disableElement(recordButton)
       disableElement(resetButton)
       
@@ -115,7 +114,8 @@ const handleRollingDice = (() => {
 
 })()
 
-const handleRecord =()=>{
+
+const handleRecord =() => {
   
   visibleElement(recordListWrapper);
   renderRecordListItem();

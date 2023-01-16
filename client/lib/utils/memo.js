@@ -28,8 +28,6 @@ export const memo = (() => {
 
 
 
-
-
 memo('cube',()=> document.querySelector('#cube'));
 
 console.log(memo('cube'));
